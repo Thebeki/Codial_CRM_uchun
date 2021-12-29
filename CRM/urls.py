@@ -18,4 +18,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('tolov/', TolovListCreateAPIView.as_view(), name="tolovlar"),
+    path('tolov/<int:pk>', TolovGetUpdateAPIView.as_view()),
 ]

@@ -1,7 +1,7 @@
 from typing import KeysView
 from django.contrib import admin
 
-from CRM.shartnomaapp.models import Kurs, Shartnoma, Student, Ustoz
+from shartnomaapp.models import Kurs, Shartnoma, Student, Ustoz
 
 # Register your models here.
 admin.site.register(Shartnoma)
